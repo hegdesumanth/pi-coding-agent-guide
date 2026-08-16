@@ -91,3 +91,35 @@ Full breakdown of why each step matters: [The Core Workflow →](guide/04-core-w
 ## License
 
 [MIT](LICENSE) &copy; Sumanth Hegde
+
+## 👥 Contributing
+
+This is a living guide. If you find a stale command, a Pi behavior that's changed, or a clearer way to explain something:
+
+1. Create a new branch: `docs/your-topic-name`
+2. Add or update the relevant file under `guide/` or `examples/`
+3. Open a Pull Request with a short description of what you changed
+
+> 💡 Even small improvements matter — if a command or example confused you, it'll confuse the next reader too. Fix it!
+
+## 🔗 Official Resources
+
+- [Pi repository](https://github.com/earendil-works/pi)
+- [Quickstart](https://github.com/earendil-works/pi/blob/main/packages/coding-agent/docs/quickstart.md)
+- [Providers & authentication](https://github.com/earendil-works/pi/blob/main/packages/coding-agent/docs/providers.md)
+- [Settings reference](https://github.com/earendil-works/pi/blob/main/packages/coding-agent/docs/settings.md)
+- [Pi packages](https://github.com/earendil-works/pi/blob/main/packages/coding-agent/docs/packages.md)
+
+## 📬 Questions?
+
+**Sumanth Hegde**
+
+- 📧 Personal: hegdesumanth8@gmail.com
+- 📧 Work: sumanth.hegde@absyz.com
+- 💼 LinkedIn: [linkedin.com/in/hegde-sumanth](https://www.linkedin.com/in/hegde-sumanth/)
+- 🐙 GitHub: [github.com/hegdesumanth](https://github.com/hegdesumanth)
+- 🌐 Portfolio: [hegdesumanth.netlify.app](https://hegdesumanth.netlify.app/)
+
+---
+
+*Prepared and maintained by **Sumanth Hegde**.*

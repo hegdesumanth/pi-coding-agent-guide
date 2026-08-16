@@ -4,6 +4,8 @@
 
 At startup, Pi walks from the current directory up through its parents looking for `AGENTS.md` or `CLAUDE.md`, plus `~/.pi/agent/AGENTS.md` for anything global. If a directory has an `AGENTS.override.md`, that replaces (not adds to) the `AGENTS.md`/`CLAUDE.md` Pi would otherwise load from that specific directory — other directories in the chain still layer normally.
 
+Parent-to-child layering is confirmed and documented: every directory's context file loads, they combine rather than the closest one winning alone. What's *not* documented anywhere upstream is which one wins if a single directory has **both** an `AGENTS.md` and a `CLAUDE.md` — don't assume an order here; keep one or the other per directory instead of relying on undocumented precedence.
+
 Changes to these files need a restart or `/reload` to take effect — Pi doesn't watch them live.
 
 ## What actually belongs in one

@@ -32,6 +32,20 @@ Skills show up as `/skill:name`, and prompt templates expand via `/templatename`
 | Shift+Enter (Ctrl+Enter on Windows Terminal) | Multi-line input |
 | Escape | Stop the current agent turn |
 
+## How sessions branch
+
+`/tree`, `/fork`, and `/clone` all let you branch, but only one of them stays in the same file:
+
+```mermaid
+flowchart TD
+    A["Session file A\n(a tree of entries)"]
+    A -->|"/tree — jump to an earlier\npoint, same file"| A
+    A -->|"/fork — pick an earlier\nuser message"| B["New session file B"]
+    A -->|"/clone — duplicate the\ncurrent active branch"| C["New session file C"]
+```
+
+`/tree` is **not destructive** — it moves which point you continue from, but every branch stays in the file and stays reachable; nothing is deleted by navigating away from it. `/fork` and `/clone` both start a separate file instead: `/fork` lets you pick which earlier user message to branch from, `/clone` just duplicates whatever your current active branch already is.
+
 ## Session flags from the command line
 
 ```bash

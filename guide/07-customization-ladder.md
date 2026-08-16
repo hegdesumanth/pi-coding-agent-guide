@@ -2,6 +2,15 @@
 
 The trap is installing a big extension/skill bundle before you've hit a real, repeated problem the defaults don't solve. Climb one rung at a time — each rung costs more to maintain than the one below it, so only go up when the rung below has genuinely stopped being enough.
 
+```mermaid
+flowchart TD
+    A["What's recurring?"] -->|"A fact about the project"| R1["Rung 1: AGENTS.md / CLAUDE.md"]
+    A -->|"The same request, retyped"| R2["Rung 2: Prompt template"]
+    A -->|"The same method, across tasks"| R3["Rung 3: Skill"]
+    A -->|"New behavior Pi doesn't have"| R4["Rung 4: Extension"]
+    A -->|"A non-catalog model endpoint"| R5["Rung 5: Custom provider"]
+```
+
 | Rung | Mechanism | Reach for it when | Cost of maintaining it |
 |---|---|---|---|
 | 1 | `AGENTS.md` / `CLAUDE.md` | You keep re-explaining the same project fact | Low — it's a markdown file |
