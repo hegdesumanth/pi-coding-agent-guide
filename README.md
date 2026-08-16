@@ -88,10 +88,6 @@ Full breakdown of why each step matters: [The Core Workflow →](guide/04-core-w
 - [`examples/skills/test-gap-finder/SKILL.md`](examples/skills/test-gap-finder/SKILL.md) — a skill that flags untested branches in a diff
 - [`examples/extensions/confirm-force-push.ts`](examples/extensions/confirm-force-push.ts) — a tiny extension that gates force-pushes behind a confirmation
 
-## License
-
-[MIT](LICENSE) &copy; Sumanth Hegde
-
 ## 👥 Contributing
 
 This is a living guide. If you find a stale command, a Pi behavior that's changed, or a clearer way to explain something:
@@ -119,6 +115,10 @@ This is a living guide. If you find a stale command, a Pi behavior that's change
 - 💼 LinkedIn: [linkedin.com/in/hegde-sumanth](https://www.linkedin.com/in/hegde-sumanth/)
 - 🐙 GitHub: [github.com/hegdesumanth](https://github.com/hegdesumanth)
 - 🌐 Portfolio: [hegdesumanth.netlify.app](https://hegdesumanth.netlify.app/)
+
+## License
+
+[MIT](LICENSE) &copy; Sumanth Hegde
 
 ---
 
